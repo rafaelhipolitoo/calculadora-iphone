@@ -5,6 +5,7 @@
   user-select: none;
 }
 
+
 main{
   box-sizing: content-box;
   background-image: url(/mockup.png);
@@ -17,16 +18,18 @@ main{
 
 }
 
-
-
 body {
+  background-color: black;
+  width: 700px; 
+  margin-left: auto;
+  margin-right: auto; 
   font-family: Helvetica, sans-serif;
   margin: 25px;
   font-size: 12px;
 }
 
 .calculator {
-  background: black;
+  border: 2px solid white;
   width: 330px;
   height: 630px;
   border-radius: 50px;
