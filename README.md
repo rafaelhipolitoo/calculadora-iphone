@@ -12,4 +12,4 @@
 
 <div>
     <h1>Foto:</h1>
-    <img align="center" src="img/print-screen.png"></img>
+    <img align="center" src="img/print-screen.PNG"></img>
