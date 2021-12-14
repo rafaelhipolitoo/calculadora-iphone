@@ -5,6 +5,20 @@
   user-select: none;
 }
 
+main{
+  box-sizing: content-box;
+  background-image: url(/mockup.png);
+  background-size: cover;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 630px;
+  padding: 5px;
+
+}
+
+
+
 body {
   font-family: Helvetica, sans-serif;
   margin: 25px;
