@@ -5,8 +5,19 @@
   user-select: none;
 }
 
+.mokup{
+  max-width:550px;
+  max-height:640px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
 body {
-  background-color: black;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(119,131,70,0.3897934173669467) 50%, rgba(0,212,255,1) 100%);
   width: 700px; 
   margin-left: auto;
   margin-right: auto; 
@@ -15,7 +26,8 @@ body {
   font-size: 12px;
 }
 
-.calculator {
+.calculadora {
+  background-color: black;
   border: 2px solid white;
   width: 330px;
   height: 630px;
