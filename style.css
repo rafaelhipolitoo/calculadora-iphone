@@ -37,8 +37,9 @@ body {
   justify-content: space-between;
   height: 100px;
 }
-.display {
-  font-size: 70px;
+
+#display {
+  font-size: 65px;
   font-weight: 100;
   height: 100px;
   text-align: right;
