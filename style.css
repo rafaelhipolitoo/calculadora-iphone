@@ -44,6 +44,8 @@ body {
   height: 100px;
   text-align: right;
   margin-right: 12px;
+  overflow-x: hidden;
+
 }
 
 .buttons-container {
