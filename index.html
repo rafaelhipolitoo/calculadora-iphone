@@ -20,27 +20,27 @@
                     <img src="img/status.png" alt="Status" width="65px">
                 </div>
             </div>
-            <div class="display">0</div>
+            <div id="display"></div>
                 <div class="buttons-container">
-                    <div class="button function ac">AC</div>
+                    <div onclick="clean()" class="button function ac">AC</div>
                     <div class="button function pm">+/-</div>
                     <div class="button function percent">%</div>
-                    <div class="button operator division">&divide;</div>
-                    <div class="button number-7">7</div>
-                    <div class="button number-8">8</div>
-                    <div class="button number-9">9</div>
-                    <div class="button operator multiplication">x</div>
-                    <div class="button number-4">4</div>
-                    <div class="button number-5">5</div>
-                    <div class="button number-6">6</div>
-                    <div class="button operator subtracion">-</div>
-                    <div class="button number-1">1</div>
-                    <div class="button number-2">2</div>
-                    <div class="button number-3">3</div>
-                    <div class="button operator addition">+</div>
-                    <div class="button number-0">0</div>
-                    <div class="button decimal">,</div>
-                    <div class="button operator equal">=</div>
+                    <div onclick="insert('/')" class="button operator division">&divide;</div>
+                    <div onclick="insert('7')" class="button number-7">7</div>
+                    <div onclick="insert('8')" class="button number-8">8</div>
+                    <div onclick="insert('9')" class="button number-9">9</div>
+                    <div onclick="insert('*')" class="button operator multiplication">x</div>
+                    <div onclick="insert('4')" class="button number-4">4</div>
+                    <div onclick="insert('5')" class="button number-5">5</div>
+                    <div onclick="insert('6')" class="button number-6">6</div>
+                    <div onclick="insert('-')" class="button operator subtracion">-</div>
+                    <div onclick="insert('1')" class="button number-1">1</div>
+                    <div onclick="insert('2')" class="button number-2">2</div>
+                    <div onclick="insert('3')" class="button number-3">3</div>
+                    <div onclick="insert('+')" class="button operator addition">+</div>
+                    <div onclick="insert('0')" class="button number-0">0</div>
+                    <div onclick="insert('.')" class="button decimal">,</div>
+                    <div onclick="calcular()" class="button operator equal">=</div>
                 </div>
             <div class="bottom"></div>
         </div>
